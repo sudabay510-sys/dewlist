@@ -2,7 +2,7 @@
 
 A simple AM/PM skincare habit plan — general education, not medical advice.
 
-Quiz → personalized plan preview → paywall (founding list, **no real payments**).
+Quiz → personalized plan preview → email capture → Gumroad checkout (Monthly or Quarterly). Payments processed by Gumroad. Renews automatically. Cancel anytime from your Gumroad library.
 
 ## Run locally
 ```bash

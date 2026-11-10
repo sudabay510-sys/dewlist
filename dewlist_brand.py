@@ -84,7 +84,7 @@ BRAND = {
     "how_steps": [
         {"title": "Answer 10 questions", "text": "Skin feel, time, climate, and a safety check."},
         {"title": "See your routine", "text": "AM/PM order and patch-test habit unlocked."},
-        {"title": "Join the founding list", "text": "No charge today — we’ll email when checkout opens."},
+        {"title": "Start your plan", "text": "Enter your email, then complete checkout on Gumroad."},
     ],
     "features": [
         {"title": "AM/PM order", "text": "Steps in a sensible sequence for your time."},
@@ -101,14 +101,20 @@ BRAND = {
     "faq": [
         {"q": "Can Dewlist treat my acne or eczema?", "a": "No. Dewlist is general habit education. Please see a dermatologist for any skin condition."},
         {"q": "Do you recommend specific products?", "a": "No. We describe product types and how to introduce them, not brands."},
+        {"q": "How does billing work?", "a": "Choose Monthly or Quarterly, save your email, then complete payment on Gumroad. Renews automatically. Cancel anytime from your Gumroad library."},
         {"q": "I use a prescription. Can I use this?", "a": "Follow your prescriber first and ask them before adding anything new."},
     ],
     "pricing": [
-        {"id": "4w", "name": "4-week habit", "intro": "$9", "period": "first 4 weeks", "renewal": "$12 / 4 weeks", "includes": ["AM/PM routine", "Patch-test guide", "Habit tracker"]},
-        {"id": "12w", "name": "12-week seasons", "intro": "$24", "period": "first 12 weeks", "renewal": "$29 / 12 weeks", "featured": True, "includes": ["Everything in 4-week", "Ingredient label explainer", "Seasonal routine swaps"]},
+        {"id": "monthly", "name": "Monthly", "price": "$12", "period": "/ month",
+         "intro": "$12", "renewal": "$12 / month", "renewal_note": "Renews automatically. Cancel anytime from your Gumroad library.",
+         "includes": ["AM/PM routine", "Patch-test guide", "Habit tracker"]},
+        {"id": "quarterly", "name": "Quarterly", "price": "$29", "period": "every 3 months",
+         "intro": "$29", "renewal": "$29 every 3 months", "renewal_note": "Renews automatically. Cancel anytime from your Gumroad library.", "featured": True,
+         "includes": ["Everything in Monthly", "Ingredient label explainer", "Seasonal routine swaps"]},
     ],
+    "checkout_url": "https://solvfix.gumroad.com/l/ozmyi",
     "disclaimer_short": "General skincare education only. Not medical advice, diagnosis, or treatment. See a dermatologist for skin concerns. No results guarantees.",
-    "disclaimer_long": "Dewlist provides general, non-medical skincare-habit education for adults. It does not diagnose, treat, cure, or prevent any disease or skin condition, does not evaluate symptoms, and is not a substitute for advice from a board-certified dermatologist or other licensed clinician. Statements have not been evaluated by the FDA. Stop using any product that irritates your skin and seek professional care. Dewlist does not sell or recommend specific products. No payments are processed on this site.",
+    "disclaimer_long": "Dewlist provides general, non-medical skincare-habit education for adults. It does not diagnose, treat, cure, or prevent any disease or skin condition, does not evaluate symptoms, and is not a substitute for advice from a board-certified dermatologist or other licensed clinician. Statements have not been evaluated by the FDA. Stop using any product that irritates your skin and seek professional care. Dewlist does not sell or recommend specific products. Payments are processed by Gumroad, not on this site.",
     "font_url": "https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Plus+Jakarta+Sans:wght@400;500;700&display=swap",
     "fonts": ("DM Serif Display", "Plus Jakarta Sans"),
     "questions": Q, "generate_plan": plan,

@@ -1,7 +1,7 @@
 # Dewlist — Brand identity
 
 **Slug:** `dewlist` · **Tagline:** A simple AM/PM skincare habit plan — general education, not medical advice.
-**Status:** Early access. Checkout not live; founding list only. No payments processed.
+**Status:** Live. Payments processed by Gumroad (Monthly or Quarterly).
 
 ## Positioning
 Adults who feel lost in the product aisle and want a simple, consistent routine — with clear limits.
@@ -43,9 +43,9 @@ Gentle, clear, science-respecting. Like a friend who reads labels — and tells 
 ## Logo
 `static/logo.svg` — monogram mark on a rounded tile in the primary accent. Minimum size 24px; clear space ≈ 25% of the mark height. Use on light backgrounds; on dark, keep the tile as-is.
 
-## Pricing (planned terms; not live)
-- **4-week habit** — $9 first 4 weeks, then $12 / 4 weeks unless cancelled
-- **12-week seasons** — $24 first 12 weeks, then $29 / 12 weeks unless cancelled
+## Pricing
+- **Monthly** — $12 / month. Renews automatically. Cancel anytime from your Gumroad library.
+- **Quarterly** — $29 every 3 months. Renews automatically. Cancel anytime from your Gumroad library.
 
 ## Safety / compliance line
 Dewlist doesn’t diagnose or treat skin conditions. For acne that hurts or scars, rashes, changing moles, or reactions, see a board-certified dermatologist or your doctor.
@@ -53,8 +53,8 @@ Dewlist doesn’t diagnose or treat skin conditions. For acne that hurts or scar
 ## Do
 - Say ‘general education’ and ‘see a dermatologist’ plainly.
 - Describe product types, never specific brands or prescription ingredients.
-- Show intro **and** renewal prices before any future charge.
-- Label the founding list as “no charge today”.
+- Show Monthly and Quarterly prices, plus the renewal sentence, before checkout.
+- Save the customer’s email before sending them to Gumroad.
 - Keep the disclaimer visible near every plan.
 
 ## Don’t
