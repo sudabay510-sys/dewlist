@@ -1,0 +1,33 @@
+/* Dewlist identity layer, Nov 2026 refresh: Sunrise / moonrise split routine. Loaded after brand.css; visual only. */
+:root{--bg:#FBF7F4;--bg-alt:#F5ECE6;--card:#FFFFFF;--ink:#2A2430;--muted:#655B66;--line:#EADFDB;--accent:#8A4560;--accent-2:#6F3449;--on-accent:#FFFFFF;--hi:#FFD9B8;--radius:20px;--focus:#8A4560;
+--font-display:'Instrument Serif', Georgia, serif;--font-body:'Plus Jakarta Sans', system-ui, sans-serif;--tracking:-0.01em;--cta-band-bg:#3B2E4A;--cta-band-ink:#FBF7F4;--cta-band-btn:#FFD9B8;--cta-band-btn-ink:#2A2430;
+--shadow-card:0 14px 34px rgba(0,0,0,.10);--shadow-btn:none}
+body{font-family:var(--font-body);background:var(--bg);color:var(--ink)}
+.skip:focus{background:var(--card);color:var(--ink);outline:3px solid var(--focus)}
+.btn:focus-visible,.choice:focus-within,a:focus-visible,.input:focus{outline:3px solid var(--focus);outline-offset:2px}
+.choice:has(input:checked){border-color:var(--accent);box-shadow:0 0 0 2px var(--accent) inset}
+.choice input{accent-color:var(--accent);width:1.15rem;height:1.15rem;flex:none}
+.choice{min-height:3.25rem}
+.btn{min-height:2.75rem}
+.nav a.btn-primary,.nav a.btn-primary:hover{color:var(--on-accent)}
+.safety{border-left-width:6px;border-left-style:solid}
+@media (max-width:560px){.choice{padding:.9rem 1rem}.quiz-q{font-size:1.45rem}}
+
+h1,h2{font-weight:400;letter-spacing:-.01em}h1{font-size:clamp(2.6rem,6vw,4.6rem);line-height:1}
+h3{font-family:var(--font-body);font-weight:700}
+.hero{background:linear-gradient(90deg,#FFD9B8 0 50%,#3B2E4A 50% 100%)}
+.hero-copy{background:rgba(251,247,244,.94);padding:1.75rem;border-radius:24px}
+.hero-card{border:0;box-shadow:0 20px 40px rgba(42,36,48,.25)}
+@media (max-width:860px){.hero{background:linear-gradient(180deg,#FFD9B8 0 55%,#3B2E4A 55% 100%)}}
+.dot{background:linear-gradient(90deg,#FFD9B8 50%,#3B2E4A 50%);width:.9rem;height:.9rem;border:1px solid var(--ink)}
+.btn{border-radius:999px}
+.choice{border-radius:16px}
+.choice:has(input:checked){background:#FFF1E5;border-color:var(--accent)}
+.progress{height:.5rem;background:#EADFDB}.progress-bar{background:linear-gradient(90deg,#FFD9B8,#8A4560 60%,#3B2E4A)}
+.plan-section{border:0;border-top:6px solid #FFD9B8;box-shadow:0 8px 20px rgba(42,36,48,.06)}
+.plan-section:nth-of-type(even){border-top-color:#3B2E4A}
+.step-num,.journey-step{background:linear-gradient(135deg,#FFD9B8 50%,#CFEDE5 50%);color:var(--ink)}
+.lock-banner{background:linear-gradient(90deg,#FFF1E5,#F1ECF4);border:0}
+.eyebrow{color:var(--accent)}
+.safety{background:#CFEDE5;color:#173F36;border-color:#1F5F50;border-left-width:8px;font-size:1rem;padding:1.15rem 1.3rem}
+.safety strong{color:#173F36}

@@ -62,3 +62,25 @@ Dewlist doesn’t diagnose or treat skin conditions. For acne that hurts or scar
 - Show before/after photos or promise visible results.
 - Fake testimonials, user counts, stats, or press logos.
 - Countdown timers, “spots left”, or other urgency/scare copy.
+
+
+## Identity refresh (Nov 2026)
+
+Visual layer only (`static/identity.css`, `static/logo.svg`, Google Fonts URL). Quiz questions, plan generation, routes, pricing, checkout/unlock, and safety notes are unchanged.
+
+- **Concept:** Sunrise / moonrise split routine. Morning and night as two halves of one screen: apricot sunrise for AM, plum night for PM, with a dew-drop mark that is half of each.
+- **Type:** Instrument Serif (display) / Plus Jakarta Sans (body)
+- **Voice:** A friend who reads labels — gentle, clear, and quick to say ‘see a doctor for that’.
+- **Persona (design assumption, not research):** Mei, 28, routine beginner (assumption): Owns a cleanser and three half-used products from social media. Not sure what order they go in.
+
+| Color | Hex |
+|---|---|
+| Porcelain | `#FBF7F4` |
+| Sunrise apricot | `#FFD9B8` |
+| Night plum | `#3B2E4A` |
+| Rosewood | `#8A4560` |
+| Dew mint | `#CFEDE5` |
+| Mint ink | `#1F5F50` |
+| Ink | `#2A2430` |
+
+Full brand guide, persona, and journey: `quiz-to-plan-redesign/products/dewlist/brand.html`.

@@ -1,1 +1,2 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none"><rect width="64" height="64" rx="32" fill="#A8506A"/><path d="M32 14c7 9 12 15.5 12 22a12 12 0 0 1-24 0c0-6.5 5-13 12-22z" fill="#FBF5F3"/><path d="M27 37a5 5 0 0 0 5 5" stroke="#BFE3DC" stroke-width="3" stroke-linecap="round"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Dewlist icon"><rect width="100" height="100" rx="50" fill="#FBF7F4"/><path d="M50 12 C 64 36, 78 50, 78 64 a28 28 0 0 1 -56 0 C 22 50, 36 36, 50 12 Z" fill="#CFEDE5"/><path d="M50 12 C 64 36, 78 50, 78 64 a28 28 0 0 1 -28 28 Z" fill="#3B2E4A"/><circle cx="62" cy="64" r="6" fill="#FFD9B8"/><circle cx="38" cy="60" r="7" fill="#F2A65A"/></svg>
