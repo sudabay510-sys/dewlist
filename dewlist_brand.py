@@ -115,7 +115,7 @@ BRAND = {
     "checkout_url": "https://solvfix.gumroad.com/l/ozmyi",
     "disclaimer_short": "General skincare education only. Not medical advice, diagnosis, or treatment. See a dermatologist for skin concerns. No results guarantees.",
     "disclaimer_long": "Dewlist provides general, non-medical skincare-habit education for adults. It does not diagnose, treat, cure, or prevent any disease or skin condition, does not evaluate symptoms, and is not a substitute for advice from a board-certified dermatologist or other licensed clinician. Statements have not been evaluated by the FDA. Stop using any product that irritates your skin and seek professional care. Dewlist does not sell or recommend specific products. Payments are processed by Gumroad, not on this site.",
-    "font_url": "https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Plus+Jakarta+Sans:wght@400;500;700&display=swap",
+    "font_url": "https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap",
     "fonts": ("DM Serif Display", "Plus Jakarta Sans"),
     "questions": Q, "generate_plan": plan,
     "voice": "Gentle, clear, science-respecting. Like a friend who reads labels — and tells you when to see a doctor.",
