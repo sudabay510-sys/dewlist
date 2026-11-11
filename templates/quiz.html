@@ -2,8 +2,9 @@
 {% block title %}Question {{ n }} of {{ total }} — {{ brand.name }}{% endblock %}
 {% block body_class %}page-quiz{% endblock %}
 {% block content %}
-<section class="quiz-shell">
+<section class="quiz-shell q-dewlist">
   <div class="wrap narrow">
+    <div class="dl-q"><span class="dl-sun" aria-hidden="true"></span><span>Step {{ n }} of {{ total }}</span><span class="dl-moon" aria-hidden="true"></span></div>
     <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="{{ progress }}" aria-label="Quiz progress">
       <div class="progress-bar" style="width: {{ progress }}%"></div>
     </div>

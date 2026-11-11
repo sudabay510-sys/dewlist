@@ -1,0 +1,21 @@
+/* dewlist layout compositions (phase 2). Loaded after identity.css. */
+.dw-drop{display:inline-block;width:42px;height:42px;border-radius:50% 0 50% 50%;transform:rotate(-45deg);background:linear-gradient(90deg,#FFD9B8 50%,#3B2E4A 50%);border:2px solid var(--ink);margin-bottom:1rem}
+.dw-drop.big{width:110px;height:110px;border-color:#FBF7F4}
+.dl-arc .journey-grid{grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+.dl-arc .journey-card:nth-child(odd){border-top:6px solid #FFD9B8}.dl-arc .journey-card:nth-child(even){border-top:6px solid #3B2E4A}
+.dl-q{display:flex;align-items:center;gap:.7rem;font:600 .9rem var(--font-body);margin-bottom:.6rem}
+.dl-q span:nth-child(2){flex:1;text-align:center}
+.dl-sun{width:22px;height:22px;border-radius:50%;background:#FFD9B8;border:2px solid #8A4560}
+.dl-moon{width:22px;height:22px;border-radius:50%;background:#3B2E4A;box-shadow:inset -6px -2px 0 #FBF7F4}
+.page-quiz .tiny.muted{display:none}
+.dl-head{display:grid;grid-template-columns:1.4fr .6fr;border-radius:28px;overflow:hidden;margin-bottom:1.5rem}
+.dl-am{background:#FFD9B8;padding:2rem}.dl-am .lede,.dl-am .muted{color:#3B2E4A}.dl-am .eyebrow{color:#6F3449}
+.dl-pm{background:#3B2E4A;display:grid;place-items:center}
+.page-results .plan-preview,.page-results .plan-full{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.page-results .plan-preview>h2,.page-results .plan-full>h2,.page-results .plan-full>p{grid-column:1/-1}
+.dl-sec{margin:0}
+.dl-sec.am{background:#FFF1E5;border-top-color:#FFD9B8!important}
+.dl-sec.pm{background:#3B2E4A;color:#FBF7F4;border-top-color:#8A4560!important}
+.dl-sec.pm h3,.dl-sec.pm li,.dl-sec.pm p{color:#FBF7F4}
+.dl-tag{font:600 .75rem var(--font-body);letter-spacing:.2em;margin:0 0 .3rem}
+@media (max-width:700px){.dl-head{grid-template-columns:1fr}.dl-pm{min-height:90px}.dw-drop.big{width:60px;height:60px}}
