@@ -2,9 +2,10 @@
 {% block title %}{{ brand.name }} — {{ brand.tagline }}{% endblock %}
 {% block body_class %}page-landing{% endblock %}
 {% block content %}
-<section class="hero">
+<section class="hero ly-hero">
   <div class="wrap hero-grid">
     <div class="hero-copy">
+      <span class="dw-drop" aria-hidden="true"></span>
       <p class="eyebrow">{{ brand.eyebrow }}</p>
       <h1>{{ brand.hero_title }}</h1>
       <p class="lede">{{ brand.hero_lede }}</p>
@@ -17,20 +18,16 @@
 <aside class="safety" role="note" aria-label="Safety note"><strong>{{ brand.safety_title or "Important" }}:</strong> {{ brand.safety_note }}</aside>
 {% endif %}
     </div>
-    <div class="hero-card" aria-hidden="true">
-      <div class="card-label">Sample plan peek</div>
-      <ul class="peek-list">
-        {% for b in brand.sample_peek %}
-        <li><span class="dot"></span>{{ b }}</li>
-        {% endfor %}
-      </ul>
+    <div class="hero-card dl-split" aria-label="Sample plan peek">
+      <div class="card-label">Sample plan peek · AM / PM</div>
+      <ul class="peek-list">{% for b in brand.sample_peek %}<li><span class="dot"></span>{{ b }}</li>{% endfor %}</ul>
       <div class="card-fade">Full plan unlocks after your quiz</div>
     </div>
   </div>
 </section>
 
 
-<section class="section journey" id="journey" aria-labelledby="journey-h">
+<section class="section journey dl-arc" id="journey" aria-labelledby="journey-h">
   <div class="wrap">
     <p class="eyebrow">Your journey</p>
     <h2 id="journey-h">{{ brand.journey_title or "Where it usually breaks — and what your plan does" }}</h2>
